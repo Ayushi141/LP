@@ -33,7 +33,7 @@ mother(X,Y) :- parent(X,Y), female(X).
 
 ancestor(X,Y) :- parent(X,Y); parent(X,Z), parent(Z,Y).
 
-% Start Testcases: run_tests(sheep).
+% Start Testcases: run_tests(sheep)
 
 :- begin_tests(sheep,[]).
 
